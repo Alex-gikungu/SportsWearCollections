@@ -38,7 +38,7 @@ const ProductWishlist = () => {
               onClick={() => handleRemoveFromWishlist(product)}
               style="margin-top: 10px;"
             >
-              Remove from Wishlist
+              Remove from Wishlist.
             </button>
           </li>
         ))}
