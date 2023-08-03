@@ -93,7 +93,7 @@ function Products({ sportsData }) {
                           <p>{item.price}</p>
                         </Link>
                         <button onClick={() => addToWishlist(item)}>
-                          Add to Wishlist
+                          Add to Wishlist!
                         </button>
                       </div>
                     ))}

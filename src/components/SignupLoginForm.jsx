@@ -5,6 +5,7 @@ const DeliveryAddress = () => {
 
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
+  
   };
 
   return (
@@ -70,11 +71,12 @@ const SignupLoginForm = () => {
 
   const handleNewUserSubmit = (event) => {
     event.preventDefault();
+
     // submission for new users
     console.log("New User Data:", newUser);
     setStep(2);
   };
-
+  
   const handleExistingUserSubmit = (event) => {
     event.preventDefault();
     // submission for existing users
