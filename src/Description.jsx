@@ -29,7 +29,7 @@ function Description({ sportsData }) {
         <button>{item.button}</button>
       </div>
     </div>
-    <SignupLoginForm/>
+
     </>
   );
 }
