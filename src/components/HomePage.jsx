@@ -4,20 +4,26 @@ import NavBar from "./NavBar";
 import Products from "./Products";
 import Wishlist from "./WishList";
 function HomePage() {
+  
 
   const handleHomeButtonClick = () => {
     history.push("/"); 
   };
+
 
   const handleProductsButtonClick = () => {
     <Products/>
     history.push("/products");
   };
 
+
   const handleWishlistsButtonClick = () => {
     <Wishlist/>
     history.push("/wishlist");
   };
+
+
+
 
   return (
     <>
@@ -44,8 +50,8 @@ function HomePage() {
   );
 }
 
-export default HomePage;
 
+export default HomePage;
 
 
 

@@ -98,6 +98,7 @@ height:400vh;
 .sports-buttons {
   display: flex;
   justify-content: space-between;
+  color: whitesmoke;
 }
 
 
@@ -120,6 +121,9 @@ height:400vh;
   width: 100%;
 }
 
+.ft-2 ul {
+  color: whitesmoke;
+}
 
 .ft-1,
 .ft-2,
@@ -127,7 +131,6 @@ height:400vh;
   flex: 1;
   padding: 10px;
 }
-
 
 .ft-1 {
   display: flex;
@@ -139,19 +142,17 @@ height:400vh;
 }
 
 .ft-1 h3 span {
-  color:  #3D5A56;
+  color: #3D5A56;
 }
 
 .ft-1 p {
   margin-bottom: 15px;
 }
 
-
 .social-media {
   display: flex;
   gap: 10px;
 }
-
 
 .ft-2 h5 {
   margin-bottom: 10px;
@@ -161,23 +162,21 @@ height:400vh;
 .ft-2 ul {
   list-style: none;
   padding-left: 0;
- 
 }
 
 .ft-2 li {
   margin-bottom: 5px;
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .ft-2 li a {
   text-decoration: none;
-  color: black;
+  color: white; 
 }
 
 .ft-3 h5 {
   margin-bottom: 10px;
   color: #3D5A56;
-  
 }
 
 .ft-3 p {
@@ -260,15 +259,12 @@ height:400vh;
   }
   
   
-  
 
-=======
 /* section 1*/
 
 #forms {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
   }
   
   
@@ -334,3 +330,55 @@ height:400vh;
     margin-bottom: 10px;
   }
 
+
+  nav {
+    background-color: #F2D6C0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3D5A56;
+  }
+  
+  a:hover {
+    background-color: #3D5A56;
+  }
+  
+  button {
+    background-color: #3D5A56;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:palegoldenrod;
+  }
+
+
+
+
+
+  /* trials */
+
+  

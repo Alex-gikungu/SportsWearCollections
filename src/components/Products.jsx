@@ -1,5 +1,7 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function NavBar({ totalItemsInWishlist }) {
   return (
@@ -101,12 +103,14 @@ function Products({ sportsData }) {
           </div>
         ))}
       </div>
-      <Wishlist
+      <Wishlist className="wish"
         wishlistItems={wishlistItems}
         removeFromWishlist={removeFromWishlist}
       />
+      <Footer/>
     </>
   );
 }
+
 
 export default Products;
