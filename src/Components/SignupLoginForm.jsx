@@ -75,6 +75,7 @@ const SignupLoginForm = () => {
     console.log("New User Data:", newUser);
     setStep(2);
   };
+  
   const handleExistingUserSubmit = (event) => {
     event.preventDefault();
     // submission for existing users
