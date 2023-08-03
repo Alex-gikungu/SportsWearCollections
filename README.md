@@ -64,7 +64,7 @@ The Sport Collection App is open-source software licensed under the MIT License.
 ## Author
 
 The Sport Collection App is authored by Alex Gikungu.
-<!--
+
 ## Contributing
 
-Contributions are welcome! If you find a bug or have an improvement idea, feel free to open an issue or submit a pull request. -->
+Contributions are welcome! If you find a bug or have an improvement idea, feel free to open an issue or submit a pull request. 
