@@ -1,0 +1,69 @@
+/* section 1*/
+
+#forms {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .new,
+  .exits {
+    background-color: #f2d6c0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new h5,
+  .exits h5 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  form button.btn {
+    padding: 10px;
+    background-color: #3d5a56;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button.btn:hover {
+    background-color: #000000;
+  }
+  
+  .or {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .or h5 {
+    color: #fff;
+  }
+  
+  .or a {
+    text-decoration: none;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
