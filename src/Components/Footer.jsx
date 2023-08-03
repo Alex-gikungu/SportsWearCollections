@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="ft-1">
                             <h3><span>Sports</span>Collection</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ea quo ex ullam laboriosam magni totam, facere eos iure voluptate.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ea quo ex ullam laboriosam <br /> magni totam, facere eos iure voluptate.</p>
                             <div className="social-media">
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-twitter"></i>
