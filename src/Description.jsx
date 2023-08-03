@@ -21,7 +21,7 @@ function Description({ sportsData }) {
 
   return (
     <>
-    <div className="description">
+
       <h2 className="description-title">{item.name}</h2>
       <div className="description-content">
         <img src={item.image} alt={item.name} className="description-image" />
