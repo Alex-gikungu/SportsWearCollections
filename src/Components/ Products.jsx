@@ -82,7 +82,7 @@ function Products({ sportsData }) {
               Object.keys(sportsData[sportName]).map((categoryName) => (
                 <div key={categoryName} className="category-section">
                   <h3>{categoryName}</h3>
-                  <div className="item-containers">
+                  <div className="item-container">
                     {sportsData[sportName][categoryName].map((item) => (
                       <div key={item.id} className="item-box">
                         <Link to={`/description/${sportName}/${item.id}`}>
