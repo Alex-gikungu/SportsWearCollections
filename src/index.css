@@ -1,0 +1,107 @@
+/*products*/
+
+/* Styling for the buttons */
+.sports-buttons button {
+  margin-right: 10px; /* Add spacing between buttons */
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styling for active button */
+.sports-buttons button.active {
+  background-color: #45a049;
+}
+
+/* Styling for the item container */
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; 
+}
+
+/* Styling for the item box (card) */
+.item-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.item-box img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.item-box p {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+/* Optional: Add a hover effect on the item box */
+.item-box:hover {
+  box-shadow: 0 4px 8px whitesmoke;
+}
+
+/* Optional: Add a transition effect */
+.item-box {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+
+
+
+
+/* Styling for the button container */
+.sports-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Styling for each button */
+.sports-buttons button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  height: 70px;
+  width: 200px;
+  font-size: large;
+  font-weight: 800;
+}
+
+/* Optional: Add styles for active button */
+.sports-buttons button.active {
+  background-color: #45a049;
+}
+
+/* Products.css */
+
+.products-container {
+  text-align: center;
+background-color: lightgray;
+height:400vh;
+}
+
+/* Add spacing between the buttons */
+.sports-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.wishlist-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; 
+}
