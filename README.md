@@ -56,11 +56,11 @@ The following tools and technologies were used to build the Sport Collection App
 - JSON Server: For simulating a RESTful API and storing sports collection data.
 - npm: The Node.js package manager for managing dependencies and scripts.
 - Git: For version control and collaboration.
-<!--
+
 ## License
 
 The Sport Collection App is open-source software licensed under the MIT License.
-
+<!--
 ## Author
 
 The Sport Collection App is authored by Alex Gikungu.
