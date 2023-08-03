@@ -16,7 +16,7 @@ The Sport Collection App was developed in collaboration with the following team 
 ## Features
 
 The Sport Collection App comes with the following main features:
-<!--
+
  - **Browse Sports Products**: Users can explore a wide range of sports products, including basketballs, soccer balls, running shoes, and more.
 
 - **Products Details** :Each sports product is accompanied by essential details such as its name, price, and category.
@@ -29,7 +29,7 @@ The Sport Collection App comes with the following main features:
 
 
 These core features make the Sport Collection App a user-friendly and efficient platform for exploring sports products and user information.
-
+<!--
 ## Description
 
 The Sport Collection App is a web application that allows users to explore a variety of sports products. It provides a list of sports items with their details, such as name, price, and category. Additionally, users can view information about registered users. The app is built using React, providing a smooth and interactive user experience.
