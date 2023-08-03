@@ -2,7 +2,7 @@
 
 The Sport Collection App is a React application that displays a collection of sports products and user information fetched from a JSON file.
 
-<!-- ## Collaborators
+ ## Collaborators
 
 The Sport Collection App was developed in collaboration with the following team members:
 
@@ -12,7 +12,7 @@ The Sport Collection App was developed in collaboration with the following team 
 4. Wango Samuel
 5. Wamai Abigail
 6. Lenaiayasa Ephrahim
-
+<!--
 ## Features
 
 The Sport Collection App comes with the following main features:
