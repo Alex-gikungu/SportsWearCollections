@@ -4,7 +4,7 @@ import Wishlist from "./Wishlist";
 function WishlistPage({ wishlistItems, sportsData }) {
   return (
     <div>
-      <h2>My Wishlist</h2>
+      <h2>Wishlist</h2>
       <Wishlist wishlistItems={wishlistItems} sportsData={sportsData} />
     </div>
   );
