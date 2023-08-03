@@ -1,5 +1,4 @@
 /* section 1*/
-
 #forms {
     display: flex;
     justify-content: space-around;
@@ -67,3 +66,4 @@
     color: #007bff;
     margin-bottom: 10px;
   }
+  
