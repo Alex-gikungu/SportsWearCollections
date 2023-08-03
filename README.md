@@ -12,11 +12,11 @@ The Sport Collection App was developed in collaboration with the following team 
 4. Wango Samuel
 5. Wamai Abigail
 6. Lenaiayasa Ephrahim
-<!--
+
 ## Features
 
 The Sport Collection App comes with the following main features:
-
+<!--
  - **Browse Sports Products**: Users can explore a wide range of sports products, including basketballs, soccer balls, running shoes, and more.
 
 - **Products Details** :Each sports product is accompanied by essential details such as its name, price, and category.
