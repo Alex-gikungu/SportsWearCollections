@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
             <div className='Last-footer'>
                 <p>Term & Condition</p>
-                <p>Privacy Policy</p>
+                <p>@ Privacy Policy</p>
             </div>
         </>
     )
