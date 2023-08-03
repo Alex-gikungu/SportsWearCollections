@@ -33,7 +33,7 @@ These core features make the Sport Collection App a user-friendly and efficient 
 ## Description
 
 The Sport Collection App is a web application that allows users to explore a variety of sports products. It provides a list of sports items with their details, such as name, price, and category. Additionally, users can view information about registered users. The app is built using React, providing a smooth and interactive user experience.
-<!--
+
 ## Installation
 
 To run the Sport Collection App:
@@ -44,8 +44,8 @@ To run the Sport Collection App:
 4. Open the project in a web browser.
 
 
-Please note that an internet connection is required to fetch movie data from the JSON server.
-
+Also make  note that an internet connection is required to fetch movie data from the JSON server.
+<!--
 ## Technologies Used
 
 The following tools and technologies were used to build the Sport Collection App:
