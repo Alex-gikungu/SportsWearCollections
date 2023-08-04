@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-
+import WishlistPage from "./WishListPage";
 function NavBar({ totalItemsInWishlist }) {
   return (
     <nav>
@@ -14,13 +13,13 @@ function NavBar({ totalItemsInWishlist }) {
           <Link to="/products">Products</Link>
         </li>
         <li>
-          <Link to="/wishlist">Wishlist ({totalItemsInWishlist})</Link>
+          <Link to ={WishlistPage}>Wishlist ({totalItemsInWishlist})</Link>
         </li>
       </ul>
     </nav>
   );
 }
-
+             
 function Wishlist({ wishlistItems, removeFromWishlist }) {
   return (
     <div className="wishlist-container">
