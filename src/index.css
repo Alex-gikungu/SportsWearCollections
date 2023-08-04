@@ -243,7 +243,7 @@ height:400vh;
   }
   
   .cover-page {
-    background-image: url("saved.jpeg");
+    background-image: url("/home/moringa/Music/SportsWearCollections/public/saved.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
