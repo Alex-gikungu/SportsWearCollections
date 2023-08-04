@@ -16,6 +16,11 @@ The Sport Collection App was developed in collaboration with the following team 
 ## Design link
 
 [Click here to view the Figma design](https://www.figma.com/file/aJ7Pcqe48hohp677my7wOj/Untitled?type=design&mode=design&t=gfIfUbcXpTEYkKUG-1)
+
+
+## Live link
+
+[Click here to view the Functioning of the application live]( https://sports-wear-collections.vercel.app/)
 ## Features
 
 The Sport Collection App comes with the following main features:

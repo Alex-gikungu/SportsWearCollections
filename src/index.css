@@ -1,5 +1,3 @@
-
-
 /*products*/
 
 /* Styling for the buttons */
@@ -245,7 +243,6 @@ height:400vh;
 
 
   .background-image {
-    background-image: url("./saved.jpeg"); 
     background-size: cover; 
     background-position: center; 
     min-height: 100vh; 
