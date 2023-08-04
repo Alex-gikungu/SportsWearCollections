@@ -8,7 +8,8 @@ function HomePage() {
   return (
     <>
       <NavBar />
-      <div className="background-image"> {/* Add a class name for the container */}
+      <div className="background-image"
+      img src="./saved.jpeg"> 
         <div className="cover-page">
           <div className="logo">
             <img src="1.png" alt="Logo" />
@@ -20,7 +21,7 @@ function HomePage() {
           </div>
 
           <div className="btn_1">
-            {/* Use Link components instead of buttons */}
+          
             <Link className="btn1" to="/">
               HOME
             </Link>
