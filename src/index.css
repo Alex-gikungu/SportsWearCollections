@@ -64,7 +64,7 @@
   padding: 10px;
 }
 
-/* Styling for each button */
+
 .sports-buttons button {
   padding: 8px 16px;
   background-color: #4caf50;
@@ -374,6 +374,7 @@ height:400vh;
   
   button:hover {
     background-color:palegoldenrod;
+    cursor: pointer;
   }
 
 
