@@ -18,19 +18,17 @@ function App() {
 
   return (
     <Router>
-
       <Routes>
-        
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<Products sportsData={sportsData} />} />
         <Route
           path="/description/:sportName/:id"
           element={<Description sportsData={sportsData} />}
         />
-        {/* Add the route for the SignupLoginForm */}
-        <Route path="/wishlist" element={<Wishlist sportsData={sportsData}/>} />
+        {/* Pass the sportsData prop to the Wishlist component */}
+        <Route path="/wishlist" element={<Wishlist sportsData={sportsData} />} />
         <Route path="/signuplogin" element={<SignupLoginForm />} />
-        <Route path="/ProductWishList" element={<ProductWishlist/>} />
+        <Route path="/ProductWishList" element={<ProductWishlist />} />
       </Routes>
     </Router>
   );
